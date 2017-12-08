@@ -24,12 +24,6 @@ public class DoubleCheckSingleton {
     return instance;
   }
 
-  public static synchronized DoubleCheckSingleton getInstanceBad() {
-    if(instance == null) {
-      instance = new DoubleCheckSingleton();
-    }
-    return instance;
-  }
 
   public static void main(String[] args) {
     for (int i = 0; i < 20; i++) {
@@ -42,6 +36,4 @@ public class DoubleCheckSingleton {
       thread.start();
     }
   }
-
-
 }
