@@ -5,4 +5,4 @@ Design Pattern with java language.
 [Singleton](http://javarevisited.blogspot.co.uk/2011/03/10-interview-questions-on-singleton.html)
 
 # Proxy 代理模式
- [Proxy代理模式](https://www.cnblogs.com/cenyu/p/6289209.html)
+ [Proxy代理模式](https://yq.aliyun.com/articles/11339)
