@@ -31,7 +31,7 @@ public class StaticProxyTicketManager implements  TicketManager{
   }
 
   public void checkIdentity() {
-    System.out.println("身份验证-----------");
+    System.out.println("静态代理身份验证-----------");
   }
 
 }

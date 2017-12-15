@@ -33,6 +33,6 @@ public class LogProxy implements TicketManager{
 
   // 增强
   public void log() {
-    System.out.println("日志");
+    System.out.println("静态代理日志");
   }
 }
