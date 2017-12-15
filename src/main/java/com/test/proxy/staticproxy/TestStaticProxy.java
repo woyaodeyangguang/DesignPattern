@@ -1,4 +1,4 @@
-package com.test.proxy;
+package com.test.proxy.staticproxy;
 
 /**
  * 客户端通过代理来购票，而代理实际不能够卖票给客户，他实际上是通过目标对象卖票给客户，也就是说他是

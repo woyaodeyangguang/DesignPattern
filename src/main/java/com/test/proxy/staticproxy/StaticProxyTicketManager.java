@@ -1,4 +1,4 @@
-package com.test.proxy;
+package com.test.proxy.staticproxy;
 
 /**
  * 代理主题角色(增加了身份验证功能).

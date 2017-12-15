@@ -1,4 +1,4 @@
-package com.test.proxy;
+package com.test.proxy.staticproxy;
 
 /**
  * 第二个代理主题角色.

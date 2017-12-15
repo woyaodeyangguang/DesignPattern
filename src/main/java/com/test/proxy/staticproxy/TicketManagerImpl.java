@@ -1,4 +1,4 @@
-package com.test.proxy;
+package com.test.proxy.staticproxy;
 
 /**
  * 真实主题角色.

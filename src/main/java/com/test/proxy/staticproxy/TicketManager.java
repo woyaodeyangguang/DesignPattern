@@ -1,4 +1,4 @@
-package com.test.proxy;
+package com.test.proxy.staticproxy;
 
 /**
  * 生活中的例子；加班比较忙，没空去买火车票，这是可以打电话到票务中心，叫他们帮买回家的火车票，当然
