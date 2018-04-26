@@ -12,19 +12,16 @@ public class StaticProxyTicketManager implements  TicketManager{
     this.ticketManager = ticketManager;
   }
 
-  @Override
   public void solidTicket() {
     checkIdentity();
     ticketManager.solidTicket();
   }
 
-  @Override
   public void changeTicket() {
     checkIdentity();
     ticketManager.changeTicket();
   }
 
-  @Override
   public void returnTicket() {
     checkIdentity();
     ticketManager.returnTicket();

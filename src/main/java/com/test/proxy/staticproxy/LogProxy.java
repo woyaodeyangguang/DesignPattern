@@ -10,21 +10,18 @@ public class LogProxy implements TicketManager{
     this.ticketManager = ticketManager;
   }
 
-  @Override
   public void solidTicket() {
     ticketManager.solidTicket();
     // 后置增强
     log();
   }
 
-  @Override
   public void changeTicket() {
     ticketManager.changeTicket();
     // 后置增强
     log();
   }
 
-  @Override
   public void returnTicket() {
     ticketManager.returnTicket();
     // 后置增强

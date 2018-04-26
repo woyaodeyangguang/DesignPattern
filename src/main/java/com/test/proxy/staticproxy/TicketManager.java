@@ -13,18 +13,19 @@ public interface TicketManager {
 
   /**
    * 售票
+   * 接口的默认修饰符为 public abstract.
    */
-  public void solidTicket();
+  void solidTicket();
 
   /**
    * 改签
    */
-  public void changeTicket();
+  void changeTicket();
 
   /**
    * 退票
    */
-  public void returnTicket();
+  void returnTicket();
 
 
 }
